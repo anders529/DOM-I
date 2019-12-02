@@ -49,3 +49,6 @@ nav[3].textContent = siteContent["nav"]["nav-item-4"];
 nav[4].textContent = siteContent["nav"]["nav-item-5"];
 nav[5].textContent = siteContent["nav"]["nav-item-6"];
 
+const ctaImg = document.querySelector('#cta-img');
+ctaImg.src = siteContent ['cta']['img-src'];
+
