@@ -80,3 +80,6 @@ const contact = document.querySelectorAll('.contact p');
 contact[0].textContent = siteContent["contact"]['address'];
 contact[1].textContent = siteContent["contact"]['phone'];
 contact[2].textContent = siteContent["contact"]['email'];
+
+const copy = document.querySelector('footer, copyright');
+copy.textContent = siteContent ['footer']['copyright'];
