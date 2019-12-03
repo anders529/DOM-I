@@ -49,6 +49,20 @@ nav[3].textContent = siteContent["nav"]["nav-item-4"];
 nav[4].textContent = siteContent["nav"]["nav-item-5"];
 nav[5].textContent = siteContent["nav"]["nav-item-6"];
 
+const newTag1 = document.createElement('a');
+const mainNav1 = document.querySelector('nav');
+newTag1.innerText = 'Stuff';
+newTag1.href = '#';
+mainNav1.appendChild(newTag1);
+newTag1.style.color = 'green';
+
+const newTag2 = document.createElement('a');
+const mainNav2 = document.querySelector('nav');
+newTag2.innerText = 'More Info';
+newTag2.href = '#';
+mainNav2.appendChild(newTag2);
+newTag2.style.color = 'green';
+
 const ctaImg = document.querySelector('#cta-img');
 ctaImg.src = siteContent ['cta']['img-src'];
 
